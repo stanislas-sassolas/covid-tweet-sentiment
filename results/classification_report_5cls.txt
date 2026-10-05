@@ -1,0 +1,13 @@
+Best model: CNN+LSTM
+
+                    precision    recall  f1-score   support
+
+Extremely Negative      0.836     0.715     0.770       592
+          Negative      0.735     0.768     0.752      1041
+           Neutral      0.928     0.789     0.853       617
+          Positive      0.703     0.806     0.751       947
+Extremely Positive      0.822     0.811     0.817       599
+
+          accuracy                          0.780      3796
+         macro avg      0.805     0.778     0.788      3796
+      weighted avg      0.788     0.780     0.781      3796

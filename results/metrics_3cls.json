@@ -1,0 +1,39 @@
+{
+  "results": {
+    "TF-IDF + LogReg": {
+      "accuracy": 0.7877,
+      "macro_f1": 0.7554,
+      "train_s": 20
+    },
+    "LSTM": {
+      "accuracy": 0.8564,
+      "macro_f1": 0.8483,
+      "epochs": 5,
+      "params": 1331587,
+      "train_s": 118
+    },
+    "BiLSTM": {
+      "accuracy": 0.8556,
+      "macro_f1": 0.8453,
+      "epochs": 5,
+      "params": 1383043,
+      "train_s": 187
+    },
+    "GRU": {
+      "accuracy": 0.8656,
+      "macro_f1": 0.8564,
+      "epochs": 6,
+      "params": 1319427,
+      "train_s": 146
+    },
+    "CNN+LSTM": {
+      "accuracy": 0.8659,
+      "macro_f1": 0.8585,
+      "epochs": 6,
+      "params": 1413635,
+      "train_s": 100
+    }
+  },
+  "best": "CNN+LSTM",
+  "n_test": 3796
+}

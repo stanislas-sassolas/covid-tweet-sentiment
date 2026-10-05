@@ -1,0 +1,81 @@
+5 classes | train 37013 | val 4113 | test 3796
+TF-IDF + LogReg {'accuracy': 0.5421, 'macro_f1': 0.5512, 'train_s': 28}
+Epoch 1/15
+2026-10-05 19:07:44.988061: E tensorflow/core/util/util.cc:131] oneDNN supports DT_BOOL only on platforms with AVX-512. Falling back to the default Eigen-based implementation if present.
+579/579 - 27s - 47ms/step - accuracy: 0.5137 - loss: 1.1654 - val_accuracy: 0.6776 - val_loss: 0.8645
+Epoch 2/15
+579/579 - 23s - 39ms/step - accuracy: 0.7536 - loss: 0.7038 - val_accuracy: 0.7488 - val_loss: 0.7045
+Epoch 3/15
+579/579 - 25s - 43ms/step - accuracy: 0.8176 - loss: 0.5598 - val_accuracy: 0.7642 - val_loss: 0.6716
+Epoch 4/15
+579/579 - 32s - 55ms/step - accuracy: 0.8455 - loss: 0.4769 - val_accuracy: 0.7593 - val_loss: 0.6926
+Epoch 5/15
+579/579 - 32s - 55ms/step - accuracy: 0.8667 - loss: 0.4088 - val_accuracy: 0.7758 - val_loss: 0.6934
+Epoch 6/15
+579/579 - 26s - 45ms/step - accuracy: 0.8803 - loss: 0.3585 - val_accuracy: 0.7853 - val_loss: 0.6932
+LSTM {'accuracy': 0.7511, 'macro_f1': 0.7614, 'epochs': 6, 'params': 1331653, 'train_s': 170}
+Epoch 1/15
+579/579 - 43s - 74ms/step - accuracy: 0.5261 - loss: 1.1356 - val_accuracy: 0.6854 - val_loss: 0.8197
+Epoch 2/15
+579/579 - 37s - 64ms/step - accuracy: 0.7598 - loss: 0.6816 - val_accuracy: 0.7673 - val_loss: 0.6602
+Epoch 3/15
+579/579 - 38s - 66ms/step - accuracy: 0.8218 - loss: 0.5297 - val_accuracy: 0.7700 - val_loss: 0.6361
+Epoch 4/15
+579/579 - 40s - 69ms/step - accuracy: 0.8532 - loss: 0.4371 - val_accuracy: 0.7785 - val_loss: 0.6287
+Epoch 5/15
+579/579 - 40s - 68ms/step - accuracy: 0.8740 - loss: 0.3691 - val_accuracy: 0.7715 - val_loss: 0.6942
+Epoch 6/15
+579/579 - 40s - 69ms/step - accuracy: 0.8957 - loss: 0.3095 - val_accuracy: 0.7712 - val_loss: 0.7400
+Epoch 7/15
+579/579 - 38s - 65ms/step - accuracy: 0.9119 - loss: 0.2631 - val_accuracy: 0.7800 - val_loss: 0.7490
+BiLSTM {'accuracy': 0.7655, 'macro_f1': 0.7745, 'epochs': 7, 'params': 1383109, 'train_s': 278}
+Epoch 1/15
+579/579 - 25s - 43ms/step - accuracy: 0.4788 - loss: 1.2134 - val_accuracy: 0.7104 - val_loss: 0.7903
+Epoch 2/15
+579/579 - 23s - 39ms/step - accuracy: 0.7545 - loss: 0.6958 - val_accuracy: 0.7642 - val_loss: 0.6717
+Epoch 3/15
+579/579 - 22s - 38ms/step - accuracy: 0.8211 - loss: 0.5489 - val_accuracy: 0.7659 - val_loss: 0.6549
+Epoch 4/15
+579/579 - 22s - 38ms/step - accuracy: 0.8499 - loss: 0.4587 - val_accuracy: 0.7797 - val_loss: 0.6391
+Epoch 5/15
+579/579 - 22s - 38ms/step - accuracy: 0.8704 - loss: 0.3951 - val_accuracy: 0.7894 - val_loss: 0.6546
+Epoch 6/15
+579/579 - 22s - 38ms/step - accuracy: 0.8893 - loss: 0.3430 - val_accuracy: 0.7916 - val_loss: 0.6620
+Epoch 7/15
+579/579 - 22s - 37ms/step - accuracy: 0.9035 - loss: 0.3007 - val_accuracy: 0.7960 - val_loss: 0.7054
+GRU {'accuracy': 0.7727, 'macro_f1': 0.7832, 'epochs': 7, 'params': 1319493, 'train_s': 158}
+Epoch 1/15
+579/579 - 18s - 31ms/step - accuracy: 0.5121 - loss: 1.1761 - val_accuracy: 0.7048 - val_loss: 0.8041
+Epoch 2/15
+579/579 - 16s - 27ms/step - accuracy: 0.7665 - loss: 0.6879 - val_accuracy: 0.7554 - val_loss: 0.6788
+Epoch 3/15
+579/579 - 16s - 27ms/step - accuracy: 0.8208 - loss: 0.5525 - val_accuracy: 0.7676 - val_loss: 0.6562
+Epoch 4/15
+579/579 - 16s - 28ms/step - accuracy: 0.8580 - loss: 0.4466 - val_accuracy: 0.7868 - val_loss: 0.6267
+Epoch 5/15
+579/579 - 16s - 28ms/step - accuracy: 0.8781 - loss: 0.3849 - val_accuracy: 0.7469 - val_loss: 0.7270
+Epoch 6/15
+579/579 - 16s - 27ms/step - accuracy: 0.8994 - loss: 0.3281 - val_accuracy: 0.7775 - val_loss: 0.6731
+Epoch 7/15
+579/579 - 16s - 28ms/step - accuracy: 0.9158 - loss: 0.2770 - val_accuracy: 0.7676 - val_loss: 0.8302
+CNN+LSTM {'accuracy': 0.7795, 'macro_f1': 0.7885, 'epochs': 7, 'params': 1413701, 'train_s': 115}
+                 accuracy  macro_f1  train_s  epochs     params
+TF-IDF + LogReg    0.5421    0.5512     28.0     NaN        NaN
+LSTM               0.7511    0.7614    170.0     6.0  1331653.0
+BiLSTM             0.7655    0.7745    278.0     7.0  1383109.0
+GRU                0.7727    0.7832    158.0     7.0  1319493.0
+CNN+LSTM           0.7795    0.7885    115.0     7.0  1413701.0
+
+Best: CNN+LSTM
+                    precision    recall  f1-score   support
+
+Extremely Negative      0.836     0.715     0.770       592
+          Negative      0.735     0.768     0.752      1041
+           Neutral      0.928     0.789     0.853       617
+          Positive      0.703     0.806     0.751       947
+Extremely Positive      0.822     0.811     0.817       599
+
+          accuracy                          0.780      3796
+         macro avg      0.805     0.778     0.788      3796
+      weighted avg      0.788     0.780     0.781      3796
+
